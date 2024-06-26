@@ -1,6 +1,42 @@
 /* Global Rules */
 
+body{
+    font-family: 'open-sans' , sans-serif;
+    margin : 0px; 
+}
+
 *{
-    font-family: 'open-sans' ;
     box-sizing: border-box;
+}
+
+*:focus{
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar {
+    width: 250px;
+    box-shadow: 0 0 10px #DDD;
+}
+
+
+.content {
+    overflow: hidden;
+}
+
+
+@media (max-width:767px){
+    .sidebar{
+        width:62px;
+        padding:10px;
+    }
+
 }
